@@ -8,6 +8,7 @@ import shutil
 import ast
 from pathlib import Path
 from packaging.version import parse, Version
+bare_metal_version = Version("12.1")
 import platform
 
 from setuptools import setup, find_packages
